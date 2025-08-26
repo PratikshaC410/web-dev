@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #eef4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card {
+      background: #fff;
+      width: 320px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      border: 1px solid #e3e3e3;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .tag {
+      background-color: #f2f4f6;
+      color: #555;
+      font-size: 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+    }
+
+    .card-content h2 {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #222;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #e8f1ff;
+      color: #0066ff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #d0e4ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="card.png" alt="Lago di Braies">
+    <div class="card-content">
+      <div class="tags">
+        <span class="tag">Nature</span>
+        <span class="tag">Lake</span>
+      </div>
+      <h2>Lago di Braies</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+
+</body>
+</html>
